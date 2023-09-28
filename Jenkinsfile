@@ -1,5 +1,5 @@
 pipeline{
-    agent {label 'gpu'}
+    //agent {label 'gpu'}
     //environment {}
     stages{
 		stage ('build') {
@@ -10,14 +10,12 @@ pipeline{
         stage ('test') {
             steps {
                echo 'test'
-            }
-            
+            }        
         }
         stage ('deploy') {
             steps {
                 echo 'deploy'
             }
-           
         }
     }
 }
