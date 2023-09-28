@@ -19,5 +19,12 @@ in order to trigger the CI rerun the job
 6. run app in docker container
 7. post deploy tests
 
+   planning
+   ![autobrains-planing-diagram](https://github.com/eladtamari/autobrains/assets/44618706/3854d166-23a6-4e57-b96c-57b519de5121)
+
+
+
+
+
 
 
