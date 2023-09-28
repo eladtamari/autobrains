@@ -4,7 +4,7 @@ pipeline{
     stages{
 		stage ('build') {
             steps {
-                println 'hello'
+                sh 'bash %{WORKSPACE}/start.sh'
             }
             
         }
