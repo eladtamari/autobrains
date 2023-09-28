@@ -1,6 +1,6 @@
 pipeline{
     agent {label 'gpu'}
-    environment {}
+    //environment {}
     stages{
 		stage ('build') {
             println 'hello'
