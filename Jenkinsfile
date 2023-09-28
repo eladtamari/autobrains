@@ -4,7 +4,12 @@ pipeline{
 	app="docker.test" 
     }
     stages{
-		stage ('build') {
+	stage ('clean'){
+	    steps {
+		sh "docker rm -f ${app}"  
+	    }
+	}
+	stage ('build') {
             steps {
                 sh 'bash ${WORKSPACE}/start.sh'
             }
