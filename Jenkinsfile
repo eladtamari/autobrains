@@ -6,8 +6,18 @@ pipeline{
             steps {
                 sh 'bash ${WORKSPACE}/start.sh'
             }
+        }
+        stage ('test') {
+            steps {
+               echo 'test'
+            }
             
         }
+        stage ('deploy') {
+            steps {
+                echo 'deploy'
+            }
+           
+        }
     }
-
 }
