@@ -4,6 +4,7 @@ pipeline{
     stages{
 		stage ('build') {
             println 'hello'
+        }
     }
 
 }
