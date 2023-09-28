@@ -4,4 +4,4 @@ ENV STATIC_URL /static
 ENV STATIC_PATH /var/www/app/static
 COPY ./app/requirements.txt /var/www/requirements.txt
 RUN pip install -r /var/www/requirements.txt
-COPY . /var/www/autobrains_app
+COPY ./main.py main.py
