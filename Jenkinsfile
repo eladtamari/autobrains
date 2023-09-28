@@ -1,5 +1,5 @@
 pipeline{
-    //agent {label 'gpu'}
+    agent any
     //environment {}
     stages{
 		stage ('build') {
