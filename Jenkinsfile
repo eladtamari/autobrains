@@ -3,7 +3,10 @@ pipeline{
     //environment {}
     stages{
 		stage ('build') {
-            println 'hello'
+            steps {
+                println 'hello'
+            }
+            
         }
     }
 
