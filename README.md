@@ -6,6 +6,7 @@ The app deployed to AWS EC2 instance and available here: http://13.39.83.222:808
 
 ## CI/CD
 to build, test and deploy the app Jenkins server is up and running here: [http://13.39.83.222:8080/job/deploy/](http://13.39.83.222:8080/job/deploy/)
+
 **Jenkins credntials will be sent by mail**
 
 in order to trigger the CI rerun the job
@@ -23,8 +24,20 @@ in order to trigger the CI rerun the job
    ![autobrains-planing-diagram](https://github.com/eladtamari/autobrains/assets/44618706/3854d166-23a6-4e57-b96c-57b519de5121)
 
 
+## Technologies
+**Web app** - I used Python + flask + NGNIX, instead writing in from scratch, 
 
+i have used Flask Container: tiangolo/uwsgi-nginx-flask:python3.8-alpine
 
+the image already contain the NGINX reverse proxy server, 
 
+Flask web server, 
 
+python and a basic web app structure.
+
+**CI/CD** - I used Jenkins cause it is a common tool that has all the plugins and can easly deployd on Cloud instase
+
+**Testing** - I used pytest for my python app.
+
+**Code repository** - GitHub 
 
