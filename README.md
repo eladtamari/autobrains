@@ -41,9 +41,13 @@ the reason i used it is savind time dealing with all the app aspects.
 
 **Code repository** - GitHub 
 
-**computing** - i choosed minimal instance that should run this minimal containers, seems that the choice wasn't ideal, the machine hang a lot, i would consider another type.
+**computing** - 
+```
+I choosed minimal instance that should run this minimal containers,
+seems that the choice wasn't ideal,
+ the machine hang a lot, i would consider another type.
 the instance is in europe which give a good performance
 I created a security group that give access to the ports: 80/443/8080/8081/22
 I have created an IAM user to be able to be integrated with Jenkins and other services in programmatic mode.
-
+```
 
