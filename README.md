@@ -28,15 +28,16 @@ in order to trigger the CI rerun the job
 **Web app** -
 ```
 I used Python + flask + NGNIX, instead writing in from scratch, 
-i have used Flask Container: tiangolo/uwsgi-nginx-flask:python3.8-alpine
+i have used Flask Container: tiangolo/uwsgi-nginx-flask:python3.8-alpine 
 the image already contain the NGINX reverse proxy server, 
 Flask web server, 
-python and a basic web app structure. 
+python and a basic web app structure.
+the reason i used it is savind time dealing with all the app aspects.
 ```
 
 **CI/CD** - I used Jenkins cause it is a common tool that has all the plugins and can easly deployd on Cloud instase
 
-**Testing** - I used pytest for my python app.
+**Testing** - I used pytest for my python app, a common tool.
 
 **Code repository** - GitHub 
 
